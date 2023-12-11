@@ -1,6 +1,5 @@
-<!-- Project Description -->
-# This is my Zomato Landing Page Clone
+# This is my zomato landing page clone
 
-<!-- mkdir (make directory) -->
-## done with 1st Commit
-## done with 1st Commitgit add.
+## Done with first commit.
+
+## Set Up created here for our appln
