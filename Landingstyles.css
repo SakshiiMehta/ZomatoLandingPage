@@ -40,6 +40,56 @@ border-radius: 100%;
 border: solid white;
 display: none;
 }
+
+
+.HeroSectionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 300px;
+
+}
+
+.HeroSectionLogo{
+    width: 200px;
+    height: 60px;
+}
+
+.HeroSectionTitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+
+.HeroSectionInputContainer{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.HeroSectionInput1, .HeroSectionInput2{
+padding: 5px;
+border: none;
+outline: none;
+}
+
+.HeroSectionInput1{
+    width: 35%;
+    border-right: 2px solid gray ;
+}
+
+.HeroSectionInput2{
+    width: 65%;
+}
+
 /* Screen size from 0-600 */
 @media only screen and (max-width:600px){
     .navbar_menu_container .user_icon{
@@ -51,4 +101,68 @@ display: none;
 .heroSection{
     height: 80vh;
 }
+.HeroSectionContainer{
+    flex-direction: column;
+    background-color: transparent;
+    width: 100%;
+}
+.HeroSectionInput1, .HeroSectionInput2{
+    padding: 18px;
+    border-radius: 10px;
+    width: 98%;
+}
+.HeroSectionContainer{
+    height:calc(80vh-40px);
+}
+.HeroSectionTitle{
+    font-size: 18px;
+    width: 95%; 
+}
+}
+
+/* Out of media queries */
+.container{
+   margin: 3rem  auto;
+   width: 90%; 
+}
+
+.we_offer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.we_offer_card {
+    border-radius: 10px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    transition: all 1s ease ;
+    
+}
+.we_offer_card:hover{
+transform: scale(1.1);
+}
+
+.we_offer_card img{
+width: 100%;
+height: 170px;
+object-fit: cover;
+}
+
+.we_offer_content{
+    padding: 10px;
+}
+
+
+.we_offer_content h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.we_offer_content p{
+    font-size: 12.5px;
 }
